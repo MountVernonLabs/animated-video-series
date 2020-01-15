@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data>
+
+	<div class="vb-playlist-item" data-deeplink="video1" data-type="video" data-mp4="media/video/main/01.mp4" data-poster="media/video/main/01.jpg" data-thumb="media/video/thumb/01.jpg" data-playback-rate="2" data-start="5" data-end="10"> 
+ 
+		<div class="vb-title">Video title number 1</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video2" data-type="video" data-mp4="media/video/main/02.mp4" data-poster="media/video/main/02.jpg" data-thumb="media/video/thumb/02.jpg"> 
+ 
+		<div class="vb-title">Video title number 2</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video3" data-type="video" data-mp4="media/video/main/03.mp4" data-poster="media/video/main/03.jpg" data-thumb="media/video/thumb/03.jpg"> 
+ 
+		<div class="vb-title">This is very long video title number 3</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video4" data-type="video" data-mp4="media/video/main/04.mp4" data-poster="media/video/main/04.jpg" data-thumb="media/video/thumb/04.jpg"> 
+ 
+		<div class="vb-title">Video title number 4</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video5" data-type="video" data-mp4="media/video/main/05.mp4" data-poster="media/video/main/05.jpg" data-thumb="media/video/thumb/05.jpg"> 
+ 
+		<div class="vb-title">Video title number 5</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video6" data-type="video" data-mp4="media/video/main/06.mp4" data-poster="media/video/main/06.jpg" data-thumb="media/video/thumb/06.jpg"> 
+ 
+		<div class="vb-title">Video title number 6</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video7" data-type="video" data-mp4="media/video/main/07.mp4" data-poster="media/video/main/07.jpg" data-thumb="media/video/thumb/07.jpg"> 
+ 
+		<div class="vb-title">This is very long video title number 7</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video8" data-type="video" data-mp4="media/video/main/08.mp4" data-poster="media/video/main/08.jpg" data-thumb="media/video/thumb/08.jpg"> 
+ 
+		<div class="vb-title">Video title number 8</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+
+	<div class="vb-playlist-item" data-deeplink="video9" data-type="video" data-mp4="media/video/main/09.mp4" data-poster="media/video/main/09.jpg" data-thumb="media/video/thumb/09.jpg"> 
+ 
+		<div class="vb-title">Video title number 9</div>  
+	 
+		<div class="vb-desc">Commodo vitae, commodo in, tempor eu, urna. Etiam justo ipsum maecenas nec vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Nullam vel ante et nunc accumsan viverra.</div>
+		
+	</div>
+	
+</data>

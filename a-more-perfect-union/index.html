@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>A More Perfect Union - George Washington's Mount Vernon</title>
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" media="all" /><!-- playlist scroll -->
+		<link rel="stylesheet" type="text/css" href="css/playlist_bottom_100.css" />
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script><!-- scroll -->
+        <script type="text/javascript" src="js/jsmediatags.min.js"></script><!-- audio id3 tags -->
+        <script type="text/javascript" src="js/new.js"></script>
+        <script type="text/javascript">
+
+			var player;
+			jQuery(document).ready(function($) {
+
+				var settings = {
+					instanceName:"playlist_bottom_100",
+					sourcePath:"",
+					playlistList:"#umg-playlist-list",
+					activePlaylist:"playlist-video",
+					activeItem:0,
+					volume:1,
+					autoPlay:true,
+					randomPlay:false,
+					loopingOn:false,
+					documentFullsceen:true,
+					autoHideInterface:true,
+					mediaEndAction:"next",
+					aspectRatio:1,
+                    gDriveAppId:"",
+                    soundCloudAppId:"",
+					youtubeAppId:"",
+                    wistiaAppId:"",
+                    facebookAppId:"",
+					playlistOpened:false,
+                    playlistScrollOrientation:"horizontal",
+                    usePlaylistScroll:true,
+                    playlistScrollTheme:"minimal",
+					useKeyboardNavigationForPlayback:true,
+                    rightClickContextMenu:'custom',
+                    autoHideInterface:true
+				};
+
+				player = $("#umg-wrapper").umg(settings);
+
+			});
+
+        </script>
+
+  </head>
+  <body>
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLMDT7"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NLMDT7');</script>
+		<!-- End Google Tag Manager -->
+        <!-- player markup -->
+        <div id="umg-wrapper">
+
+            <div class="umg-media-holder">
+
+                <div class="umg-player-loader"></div>
+
+                <div class="umg-big-play"><i class="fa fa-play umg-icon-color"></i></div>
+
+                <div class="umg-info">
+                    <div class="umg-info-close umg-contr-btn"><i class="fa fa-close umg-icon-color"></i></div>
+                    <div class="umg-info-data">
+                        <p class="umg-player-title"></p>
+                        <p class="umg-player-desc"></p>
+                    </div>
+                </div>
+
+                <div class="umg-elem-holder"></div>
+
+                <div class="umg-player-controls umg-interface">
+
+                    <div class="umg-player-controls-left">
+
+                        <div class="umg-prev-toggle umg-contr-btn" data-tooltip="Previous"><i class="fa fa-chevron-left umg-icon-color"></i></div>
+                        <div class="umg-playback-toggle umg-contr-btn" data-tooltip="Playback"><i class="fa fa-play umg-icon-color"></i></div>
+                        <div class="umg-next-toggle umg-contr-btn" data-tooltip="Next"><i class="fa fa-chevron-right umg-icon-color"></i></div>
+
+                    </div>
+
+                    <div class="umg-seekbar-wrap">
+                        <div class="umg-seekbar">
+                            <div class="umg-progress-bg">
+                                <div class="umg-load-level"></div>
+                                <div class="umg-progress-level"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="umg-player-controls-right">
+
+                        <div class="umg-playlist-toggle umg-contr-btn" data-tooltip="Playlist"><i class="fa fa-list-ul umg-icon-color"></i></div>
+
+                        <div class="umg-download-toggle umg-contr-btn" data-tooltip="Download"><a href="#"><i class="fa fa-download umg-icon-color"></i></a></div>
+
+                        <div class="umg-quality-toggle umg-contr-btn">
+                            <i class="fa fa-gear umg-icon-color" data-tooltip="Quality"></i>
+                            <div class="umg-quality-holder">
+                                <ul class="umg-quality-menu"></ul>
+                            </div>
+                        </div>
+
+                        <div class="umg-playback-rate-toggle umg-contr-btn">
+                            <i class="fa fa-crop umg-icon-color" data-tooltip="Playback rate"></i>
+                            <div class="umg-playback-rate-holder">
+                                <ul class="umg-playback-rate-menu">
+                                    <li class="umg-menu-item"><a href="#">2</a></li>
+                                    <li class="umg-menu-item"><a href="#">1.5</a></li>
+                                    <li class="umg-menu-item"><a href="#">1.25</a></li>
+                                    <li class="umg-menu-item"><a href="#">1</a></li>
+                                    <li class="umg-menu-item"><a href="#">0.5</a></li>
+                                    <li class="umg-menu-item"><a href="#">0.25</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="umg-subtitle-toggle umg-contr-btn">
+                            <i class="fa fa-cc umg-icon-color" data-tooltip="Subtitles"></i>
+                            <div class="umg-subtitle-holder">
+                                <ul class="umg-subtitle-menu"></ul>
+                            </div>
+                        </div>
+
+                        <div class="umg-volume-wrapper umg-contr-btn">
+                            <i class="fa fa-volume-up umg-icon-color" data-tooltip="Volume"></i>
+                            <div class="umg-volume-seekbar umg-contr-btn">
+                                <div class="umg-volume-bg"></div>
+                                <div class="umg-volume-level"></div>
+                            </div>
+                        </div>
+
+                        <div class="umg-fullscreen-toggle umg-contr-btn" data-tooltip="Fullscreen"><i class="fa fa-expand umg-icon-color"></i></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="umg-playlist-holder">
+                <div class="umg-playlist-inner">
+                    <div class="umg-playlist-content">
+                        <!-- playlist items are appended here! -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="umg-context-menu">
+                <ul>
+                    <li class="umg-context-playback"><span>Play</span></li>
+                    <li class="umg-context-mute"><span>Mute</span></li>
+                    <li class="umg-context-fullscreen"><span>Fullscreen</span></li>
+                    <li class="umg-context-link"><span><a href="http://www.mountvernon.org" target="_blank">@Your Company Title</a></span></li>
+                </ul>
+            </div>
+
+            <div class="umg-tooltip"><p></p></div>
+
+        </div>
+
+
+
+
+        <!-- PLAYLIST -->
+
+        <div id="umg-playlist-list">
+
+            <!-- SELF HOSTED VIDEO -->
+
+            <div id="playlist-video">
+
+							<div class="umg-playlist-item" data-type="vimeo_single" data-path="199932062">
+								<div class="umg-title">Chapter 1: Securing the Peace</div>
+								<div class="umg-desc">Securing the Peace</div>
+							</div>
+
+							<div class="umg-playlist-item" data-type="vimeo_single" data-path="199933974">
+								<div class="umg-title">Chapter 2: The Convention</div>
+								<div class="umg-desc">The Convention</div>
+							</div>
+
+							<div class="umg-playlist-item" data-type="vimeo_single" data-path="199935761">
+								<div class="umg-title">Chapter 3: Ratification and Beyond</div>
+								<div class="umg-desc">Ratification and Beyond</div>
+							</div>
+
+            </div>
+
+       </div>
+
+      </body>
+</html>
